@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IT graduate portfolio focused on networking, web development and IT support.">
+  <meta property="og:title" content="Hisham Yassir | IT Portfolio">
+  <meta property="og:description" content="IT graduate studying for CCNA and building Flask projects. Open to entry-level IT opportunities.">
+  <meta property="og:type" content="website">
+  <title>Hisham Yassir | IT Portfolio</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🌐</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">HY<span>.</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a class="nav-contact" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO ENTRY-LEVEL IT OPPORTUNITIES</p>
+        <h1>About me<br><span></span></h1>
+        <p class="hero-text">I'm Hisham Yassir, an Information Technology graduate interested in computer networking, web development and IT support. I enjoy learning how systems connect and solving technical problems.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta">
+          <span>NETWORKING</span><i></i><span>WEB DEVELOPMENT</span><i></i><span>IT SUPPORT</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Abstract network illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="core"><span>IT</span></div>
+        <div class="node node-a">⌘</div><div class="node node-b">↔</div>
+        <div class="node node-c">▤</div><div class="node node-d">⌁</div>
+        <div class="visual-label">CONNECTING IDEAS<br>TO TECHNOLOGY</div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>A little about me</h2></div>
+      <div class="about-grid">
+        <p class="about-lead">Curious by nature.<br><span>Focused on solving problems.</span></p>
+        <div class="about-detail">
+          <p>I hold a B.Sc. in Information Technology from Future University (2024). I am studying for the CCNA 200-301 exam and building Python and Flask projects at the same time.</p>
+          <p>I am interested in junior network engineering, network support, NOC, IT support and web development roles. This portfolio shows the projects and skills I am building.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">02 / TOOLKIT</p><h2>Technical interests & skills</h2></div>
+        <div class="skill-grid">
+          <article class="skill-card"><span class="skill-icon">⌁</span><h3>Networking</h3><p>CCNA studies: Ethernet, IP and MAC addressing, routing and switching, Cisco device configuration, Packet Tracer labs.</p></article>
+          <article class="skill-card"><span class="skill-icon">&lt;/&gt;</span><h3>Web Development</h3><p>HTML5, CSS, JavaScript and React for the front end. Python and Flask for the back end.</p></article>
+          <article class="skill-card"><span class="skill-icon">▣</span><h3>Automation</h3><p>Python scripting. I am building a Flask and netmiko dashboard that connects my networking and programming skills.</p></article>
+          <article class="skill-card"><span class="skill-icon">⌕</span><h3>IT Support</h3><p>Technical troubleshooting, documenting issues and learning structured support practices.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading"><p class="eyebrow">03 / PRACTICAL WORK</p><h2>Projects</h2></div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-top"><span>IN PROGRESS</span><span>01</span></div>
+          <h3>Network Automation Dashboard</h3>
+          <p>A Flask web app that uses netmiko to connect to network devices. It joins my web development and networking skills.</p>
+          <div class="tags"><span>Flask</span><span>netmiko</span><span>Python</span></div>
+          <!-- Add your link: <a class="project-link" href="https://github.com/YOUR_USERNAME/REPO" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a> -->
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span>WEB APP</span><span>02</span></div>
+          <h3>TaskVault</h3>
+          <p>A to-do app built with Flask. It was my CS50 final project.</p>
+          <div class="tags"><span>Flask</span><span>Python</span><span>CS50</span></div>
+          <!-- Add your GitHub link here -->
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span>WEB APP</span><span>03</span></div>
+          <h3>StudyFlow</h3>
+          <p>A study schedule optimizer that helps plan study time across different subjects.</p>
+          <div class="tags"><span>Flask</span><span>Python</span></div>
+          <!-- Add your GitHub link here -->
+        </article>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">04 / BACKGROUND</p><h2>Education & learning</h2></div>
+        <div class="timeline">
+          <article><span class="timeline-mark"></span><div><p class="timeline-type">DEGREE</p><h3>B.Sc. Information Technology</h3><p>Future University, graduated December 2024.</p></div></article>
+          <article><span class="timeline-mark"></span><div><p class="timeline-type">NETWORKING</p><h3>CCNA 200-301</h3><p>In progress. Studying with Jeremy's IT Lab and Packet Tracer.</p></div></article>
+          <article><span class="timeline-mark"></span><div><p class="timeline-type">COMPUTER SCIENCE</p><h3>CS50</h3><p>Final project: TaskVault, a Flask to-do app.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-panel">
+        <p class="eyebrow">05 / CONTACT</p>
+        <h2>Let's connect.</h2>
+        <p>I'm interested in entry-level opportunities in networking, NOC operations, IT support and web development. Feel free to reach out.</p>
+        <div class="contact-links">
+          <a href="tel:+905556992585">+90 555 699 25 85 ↗</a>
+          <a href="https://www.linkedin.com/in/hisham-yassir-a16869308" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a>
+          <a href="https://github.com/hishamyo" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container"><a class="brand" href="#home">HY<span>.</span></a><p>Designed & built with HTML, CSS and JavaScript.</p><p>© <span id="year"></span> Hisham Yassir</p></footer>
+</body>
+</html>
